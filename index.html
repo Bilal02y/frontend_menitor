@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  #cont {
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+  }
+
+  .card-img-top {
+    border-radius: 10px;
+    margin-top: 10px;;
+    max-width: 100%;
+  }
+
+  @media (min-width:375px) {
+    .container {
+      padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .card-img-top,
+    .card-body {
+      border-radius: 5px; /* Remove border radius for smaller screens if desired */
+    }
+    }
+  </style>
+</head>
+<body >
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-3" id="cont">
+        <div class="row">
+          <img src="images/image-qr-code.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Improve your front-end skills by builing projects</h5>
+            <p class="card-text">Scan the QR code to visit Frontend Mentor and take your coding skills the next level!</p>
+          </div>
+        </div>
+      </div>
+        
+    </div>
+  </div>
+</body>
+</html>
